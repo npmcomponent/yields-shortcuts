@@ -3,7 +3,7 @@
  * dependencies
  */
 
-var dispatcher = require('k');
+var dispatcher = require('yields-k');
 
 /**
  * Export `Shortcuts`

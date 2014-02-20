@@ -1,18 +1,15 @@
 {
-  "name": "shortcuts-component",
-  "description": "keyboard shortcuts event manager, inspired by events-component",
-  "author": "Amir Abu Shareb <yields@icloud.com>",
+  "name": "yields-shortcuts",
+  "description": "keyboard shortcuts, similiar to component/events",
   "version": "0.2.0",
+  "keywords": [
+    "keyboard",
+    "shortcuts",
+    "events"
+  ],
   "main": "index.js",
   "dependencies": {
-    "k-component": "*"
+    "yields-k": "git://github.com/npmcomponent/yields-k.git"
   },
-  "browser": {
-    "k": "k-component"
-  },
-  "component": {
-    "scripts": {
-      "shortcuts/index.js": "index.js"
-    }
-  }
+  "license": "MIT"
 }
